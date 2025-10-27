@@ -1,0 +1,20 @@
+.jokeBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    transition: background-color .1s ease;
+}
+.jokeBtn:hover:not(:disabled) {
+    background-color: #c1f590;
+}
+
+.jokeBtn:active:not(:disabled) {
+    background-color: #ecf790;
+}
+.jokeBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
