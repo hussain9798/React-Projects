@@ -1,0 +1,48 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.dark {
+  background-color: rgb(42, 81, 97);
+  color: white;
+
+}
+.light {
+  background-color: rgb(243, 239, 242);
+  color: black;
+}
+
+.time {
+  font-size: 3rem;
+
+}
+.date {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.toggle-btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.dark .toggle-btn {
+  background-color: rgb(140, 165, 248);
+  color: black;
+}
+.light .toggle-btn {
+  background-color: rgb(46, 54, 54);
+  color: white;
+}
