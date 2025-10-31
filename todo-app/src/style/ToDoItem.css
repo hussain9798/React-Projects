@@ -1,0 +1,17 @@
+.todo-item {
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item button {
+  margin-left: 10px;
+  padding: 4px 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
